@@ -15,7 +15,7 @@ public class BankingSystem {
 
 
 
-class Bank{
+  class Bank{
     int accountNo; // 53565672
     String name; // xyz
     int balance; // 50000.35 = 50000
