@@ -1,4 +1,3 @@
-package JavaFundamental;
 
 public class CodingPattern {
     public static void main(String[] args) {
