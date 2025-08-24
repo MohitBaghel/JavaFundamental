@@ -35,9 +35,17 @@ class Car extends Vehicle {
 
 
 
-        Bottom tp = new Bottom();
-        tp.m1();
-        tp.m2();
+        // Bottom tp = new Bottom();
+        // tp.m1();
+        // tp.m2();
+
+
+        Mid md = new Mid();
+        md.m1();
+        md.m2();
+        md.m3();
+        md.m4();
+
     
     }
 
@@ -78,3 +86,15 @@ class Bottom extends Top{
 
 
 // home work do a program for inheritance by own
+
+
+class Mid extends Top{  // example of inheritance
+
+ void m3(){
+    System.out.println("m3 in mid");
+ }
+
+
+ void m4(){
+    System.out.println("m4 in mid");
+}

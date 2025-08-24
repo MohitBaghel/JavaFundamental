@@ -61,3 +61,15 @@ public class Calculator extends Frame implements ActionListener {
         new Calculator();
     }
 }
+
+
+
+// fun add(){
+ 
+    
+// }
+
+
+//  fun sub(){
+
+//  }

@@ -8,10 +8,14 @@ public class HashSets {
             hashSet.add("Apple");
             hashSet.add("Banana");
             hashSet.add("Cherry");
+            hashSet.add("Fig");
             hashSet.add("Date");
             hashSet.add("Elderberry");
             hashSet.add("Fig");
             hashSet.add("Grape");
+            hashSet.add("Date");
+
+        //    get() vs conatins()
 
 
             hashSet.remove("Apple");

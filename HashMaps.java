@@ -9,14 +9,16 @@ public class HashMaps {
         hm.put(1,"Chiniese Food");
         hm.put(2,"Indian Food");
         hm.put(3,"Italian Food");
-        hm.put(4,"Mexican Food");
+        hm.put(7,"Mexican Food");
+        hm.put(7,"Mexican Food");
         hm.put(5,"American Food");
         hm.put(4,"Mexican Food");
         hm.put(6,"French Food");
-        hm.put(4,"German Food");
 
         System.out.println(hm.get(3));
         hm.remove(3);
+        hm.containsKey(hm.get(2)); // Check if key 2 exists
+        hm.keySet(); // Get all keys in the map
 
         //System.out.println("HashMap: " + hm);
 

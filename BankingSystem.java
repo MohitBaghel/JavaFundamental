@@ -1,17 +1,23 @@
 public class BankingSystem {
 
     public static void main(String[] args) {
-        Bank user1 = new Bank();
+        Bank user1 = new Bank(); // object for Bank class  for user 1
         user1.add(101, "mohit", 20000);
         user1.deposit(100000);
         user1.withDraw(40000);
         user1.enquiry();
+
+        Bank user2 = new Bank();// object for Bank class for user 
+        user2.add(1012, "Rohith", 10000);
+        user2.deposit(20000);
+        user2.withDraw(5000);
+        user2.enquiry();
+
     }
 
    
     
 }
-
 
 
 

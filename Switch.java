@@ -54,10 +54,10 @@ for(int i = 0; i<4; i++){
 
 
 
-    //     int day = 41;
+    //     int day = 4;
 
 //         switch (day) {
-//             case 1:
+//            case 1: 
 //                 System.out.println("Monday");
 //                 break;
 
@@ -100,5 +100,7 @@ for(int i = 0; i<4; i++){
 
 
 // Program for months
+
+
 
 

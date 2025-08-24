@@ -7,6 +7,7 @@ public class ArrayLists {
             ArrayList<String> languages = new ArrayList<String>();
             languages.add("Java");// 0
             languages.add("Python"); // 1
+            languages.add("Python"); // 1
             languages.add("JavaScript"); // 3
             languages.add("Kotlin");  // 4
             System.out.println(languages);
@@ -21,16 +22,7 @@ public class ArrayLists {
 
             System.out.println("Size of the list: " + languages.size()); // Getting the size of the list
 
-
-
-
-
-
-
-
-
-
-
+            languages.set(1, "C#"); // Setting element at index 1
 
             
         } catch (Exception e) {

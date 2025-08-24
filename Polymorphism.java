@@ -1,9 +1,9 @@
 public class Polymorphism {
 
     public static void main(String[] args) {
-        Animal an1 = new Animal();
-        Animal an2 = new  Lion();
-        Animal an3 = new Dog();
+        Animalss an1 = new Animalss();
+        Animalss an2 = new  Lion();
+        Animalss an3 = new Dog();
 
         an1.sound();
         an2.sound();
@@ -17,14 +17,14 @@ public class Polymorphism {
 
 
 
-class Animal {
+class Animalss {
     public void sound(){
         System.out.println("Animals is make sound");
     }
 }
 
 
-class Lion extends Animal{
+class Lion extends Animalss{
     public void sound(){
         super.sound();
         System.out.println("Lion sound");
@@ -34,7 +34,7 @@ class Lion extends Animal{
 
 
 
-class Dog extends Animal{
+class Dog extends Animalss{
     public void sound(){
         super.sound();
         System.out.println("Dog sound");

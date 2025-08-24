@@ -5,6 +5,12 @@ public class Abstraction {
         Bird an = new Bird(); // cannot able to create the object of these class
         an.sound();
         an.animalsound1();
+
+
+        Dogs dog1 = new Dogs();
+        dog1.sound();
+        dog1.animalsound1();
+
     
         
     }
@@ -35,4 +41,25 @@ class Bird extends Animal{
         public void animalsound1(){
             System.out.println("Sound ");
         }
+}
+
+
+class Dogs extends Animal{
+
+    @Override
+    public void sound(){
+        System.out.println("Bark Bark");
+
+    }
+
+
+    @Override
+    public void animalsound1(){
+        System.out.println("Dog sound");
+
+    }
+    
+
+    
+
 }
